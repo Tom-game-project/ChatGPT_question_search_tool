@@ -30,6 +30,13 @@ function set_title() {
 }
 
 function search(){
+    // 親要素を取得
+    const parentElement = document.getElementById("search_result");
+
+    // 子要素をすべて削除
+    while (parentElement.firstChild) {
+        parentElement.removeChild(parentElement.firstChild);
+    }
     let keyword_strings = document.getElementById("keywords");
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         chrome.tabs.sendMessage(
