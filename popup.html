@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:* 'unsafe-inline'">
+
+        <title>Popup Interface</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+
+    <body class="popup-container">
+        <h1><img src="/assets/icon32.png" alt="Chat-GPT icon"> 履歴検索</h1>
+        <h2 id="gas_title"></h2>
+        <input type="text" id="keywords">
+        <button id="search">検索</button>
+        <div id="search_result">
+
+        </div>
+        <script src="popup.js"></script>
+    </body>
+
+</html>

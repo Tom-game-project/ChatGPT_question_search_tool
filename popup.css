@@ -1,0 +1,18 @@
+.popup-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #0078d4;
+}
+
+p {
+    color: #333;
+}
+.result{
+    border: solid 1px;
+    margin-top: 5px;
+    cursor: pointer;
+}

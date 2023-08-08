@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Chat-GPT質問履歴検索",
+    "version": "1.0",
+    "description": "質問の履歴を検索",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://chat.openai.com/c/*"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "permissions": [
+        "activeTab","scripting"
+    ]
+}
