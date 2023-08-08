@@ -2,4 +2,4 @@
 
 ## 何度も同じ質問を繰り返す愚かな自分のために
 
-![screenshot](assets\ss.png)
+![screenshot](assets/ss.png)
